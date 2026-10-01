@@ -1,4 +1,4 @@
-# Tania Cristina dos Santos Rocha
+# Tânia Cristina dos Santos Rocha
 
 ## Sobre mim
 
