@@ -5,20 +5,20 @@
 //Aula - variáveis e Constantes
 
 // [usual] Variáveis autotipadas pelo valor atribuído
-//var nome = "Tania"
-//
-//// Swift também pode ser tipado manualmente [usual em classe]
-//var sobrenome: String = "Rocha"
-//
-////Mostrar o tipo da variável
-//print(type(of:nome))
-//
-////Constante
-//let pi = 3.14
-//
-//// Informações nulas (nil)
-//var cargo: String? = nil
-//print(cargo ?? "Cargo não informado.")
+var nome = "Tania"
+
+// Swift também pode ser tipado manualmente [usual em classe]
+var sobrenome: String = "Rocha"
+
+//Mostrar o tipo da variável
+print(type(of:nome))
+
+//Constante
+let pi = 3.14
+
+// Informações nulas (nil)
+var cargo: String? = nil
+print(cargo ?? "Cargo não informado.")
 
 /*
  REGRAS PARA CRIAR VARI[AVEIS E CONSTANTES:
