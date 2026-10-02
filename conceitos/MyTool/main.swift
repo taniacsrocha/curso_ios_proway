@@ -205,19 +205,19 @@
 
 //Funções: MAP, FILTER e REDUCE
 
-var numeros = [1 , 2, 3, 4]
-
-//MAP
-let numerosDobrados = numeros.map{$0 * 2}
-print(numerosDobrados)
-
-//FILTER
-let numerosPares = numeros.filter{ $0 % 2 == 0}
-print(numerosPares)
-
-//REDUCE
-let soma1 = numeros.reduce(0, {acumulador , numeroAtual in return acumulador + numeroAtual})
-print(soma1)
-
-let soma2 = numeros.reduce(0 , +)
-print(soma2)
+//var numeros = [1 , 2, 3, 4]
+//
+////MAP
+//let numerosDobrados = numeros.map{$0 * 2}
+//print(numerosDobrados)
+//
+////FILTER
+//let numerosPares = numeros.filter{ $0 % 2 == 0}
+//print(numerosPares)
+//
+////REDUCE
+//let soma1 = numeros.reduce(0, {acumulador , numeroAtual in return acumulador + numeroAtual})
+//print(soma1)
+//
+//let soma2 = numeros.reduce(0 , +)
+//print(soma2)
